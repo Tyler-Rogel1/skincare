@@ -1,0 +1,158 @@
+
+
+body{
+    background-color: #FFEFEF;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Switch label styling */
+.switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+/* Checkbox input - hidden */
+.switch input[type="checkbox"] {
+    display: none;
+}
+
+/* Custom switch design */
+.switch input[type="checkbox"] + span {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.switch input[type="checkbox"] + span:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Checked state styling */
+.switch input[type="checkbox"]:checked + span {
+    background-color: #E6A4B4;
+}
+
+.switch input[type="checkbox"]:checked + span:before {
+    transform: translateX(20px);
+}
+
+/* Button styling */
+#filters button {
+    padding: 10px 20px;
+    background-color: #E6A4B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#filters button:hover {
+    background-color: #F3C7CA;
+}
+#product-container img {
+    max-width: 100%; /* Image takes up the full width of the container */
+    height: 50%; /* Maintain aspect ratio */
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+p{
+    color:#4f4846;
+    margin: auto;
+}
+.product {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    max-width: 300px; /* Max width of each product card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Ensure content stacks vertically */
+    align-items: center;
+}
+button{
+    margin:16px;
+    background-color: #E6A4B4;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#4f4846;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.01em;
+    padding: 16px 32px;
+    border: 0;
+}
+button:hover {
+    background-color: #F3C7CA;
+}
+
+
+/* Media queries for responsiveness */
+@media (min-width: 600px) {
+    .product {
+        flex: 1 1 calc(50% - 40px); /* 2 items per row on small screens */
+    }
+}
+
+@media (min-width: 900px) {
+    .product {
+        flex: 1 1 calc(33.333% - 40px); /* 3 items per row on medium screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .product {
+        flex: 1 1 calc(25% - 40px); /* 4 items per row on large screens */
+    }
+}
