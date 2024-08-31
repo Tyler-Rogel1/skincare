@@ -9,9 +9,9 @@ applyFiltersBtn.onclick = function() {
     // Loop through checkboxes and add the checked ones to the array
     checkboxes.forEach(checkbox => {
         if (checkbox.checked) {
-            selectedFilters.push(1);
+            selectedFilters.push(true);
         } else{
-            selectedFilters.push(0);
+            selectedFilters.push(false);
         }
     });
     
