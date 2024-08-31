@@ -1,6 +1,3 @@
-tags for stuff in email + backbar and beautybar
-multi choice option for brand bar
-ALASTIN
-ALL ALUMINATE
-ALL C-RADICAL DEFENSE ANTIOX SERUM
-ODC GENTLE CLEANSER
+
+format brand names better
+make it so you can see way more options on one screen, especially for ipad size

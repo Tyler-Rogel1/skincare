@@ -840,54 +840,6 @@
         "bar": "back"
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
-        "name": "Oil In Gel Cleanser",
-        "brand": "ELTA",
-        "bar": "back"
-    },
-    {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
-        "name": "Foaming Facial Cleanser",
-        "brand": "ELTA",
-        "bar": "back"
-    },
-    {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
-        "name": "Skin Recovery Toner",
-        "brand": "ELTA",
-        "bar": "back"
-    },
-    {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
-        "name": "Skin Recovery Night Mask",
-        "brand": "ELTA",
-        "bar": "back"
-    },
-    {
         "oily": true,
         "combination": true,
         "normal": true,
