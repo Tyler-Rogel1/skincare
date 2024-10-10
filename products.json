@@ -1,1085 +1,1549 @@
 [
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Aluminate",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "C-Radical Defense Antiox Serum",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": true,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Gentle Cleanser",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": true,
+            "combination": true,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Ha Immerse",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Nectar",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": true,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Retinol .50",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": true,
+            "combination": true,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Restorative Eye Treatment",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Restorative Skin Complex",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Resurface Skin Polish",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Soothe And Protect Recovery Balm",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Ultra Calm Cleansing Cream",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Ultra Light Moisturizer",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Ultra Nourishing Moisturizer",
         "brand": "ALASTIN",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Cbd Skin Mist",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Cbd Eye Cream",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": true,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Chocolate Masque",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": true,
+            "combination": true,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Protective Skin Serum",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Fulvic Elixir",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Glycolic Facial Cleanser",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Idyllic Cleanser",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Daily Skin Clarifier",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Mega Cream Cleanser",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Oxygen Deep Pore Masque",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Peptide Serum",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": true,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Peptide Micro Scrub",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": true,
+            "combination": true,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Radiant Serum",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Skin Astringent No. 2",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Skin Astringent No. 5",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Hydrating Masque",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Ultra Hydro Gel",
         "brand": "GLYMED",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Arctic Berry Enzyme Exfoliant",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Arctic Berry Peptide Radiance Cream",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Apricot Body Oil",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Blueberry Detox Peel",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Calm Skin Arnica Masque",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Clear Skin Probiotic Cleanser",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Clear Skin Probiotic Masque",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Clear Skin Probiotic Moisturizer",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Clear Skin Willowbark Exfoliating Peel (Toner)",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Clear Skin Willowbark Booster Serum",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Coconut Moisturizer",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Eight Greens Phyto Masque Hot",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Facial Recovery Oil",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Mangosteen Daily Resurfacing Cleanser",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Mangosteen Revitalizing Mist 4.2 Oz",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Stone Crop Body Oil",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Stone Crop Cleansing Oil",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Stone Crop Gel Wash",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Stone Crop Hydrating Mist 4.2 Oz",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Stone Crop Masque",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Stone Crop Revitalizing Scrub",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Stone Crop Whip Moisturizer",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Strawberry Rhubarb Hyaluronic Serum",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Strawberry Rhubarb Masque",
         "brand": "EMINENCE",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Alpharet Exfoliating Peel Pads (Qty 30)",
         "brand": "SKIN_BETTER",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Alto Adv Defense & Repair Serum",
         "brand": "SKIN_BETTER",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Cleansing Gel",
         "brand": "SKIN_BETTER",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Detoxifying Scrub Mask",
         "brand": "SKIN_BETTER",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Even Tone",
         "brand": "SKIN_BETTER",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Oxygen Infusion Wash",
         "brand": "SKIN_BETTER",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Trio Rebalancing Moisture Treatment",
         "brand": "SKIN_BETTER",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": false,
-        "dry": false,
         "name": "Aha/Bha Exfoliating Cleanser",
         "brand": "SKIN_MEDICA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Ha 5",
         "brand": "SKIN_MEDICA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Rejuvanitve Moisturizer",
         "brand": "SKIN_MEDICA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Tns Ceramide Tx Cream",
         "brand": "SKIN_MEDICA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Tns Hyrdating Mask",
         "brand": "SKIN_MEDICA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": false,
-        "dry": true,
         "name": "Oil In Gel Cleanser",
         "brand": "ELTA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Foaming Facial Cleanser",
         "brand": "ELTA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": false,
-        "sensitive": true,
-        "acne": true,
-        "antiAging": false,
-        "dry": true,
         "name": "Skin Recovery Toner",
         "brand": "ELTA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Skin Recovery Night Mask",
         "brand": "ELTA",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": true,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Simply Clean Cleanser",
         "brand": "SKINCEUTICALS",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": true,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": true,
-        "dry": false,
         "name": "Daily Moisture",
         "brand": "SKINCEUTICALS",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": true,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": true,
-        "dry": false,
         "name": "Triple Lipid Repair",
         "brand": "SKINCEUTICALS",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": true,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": false,
-        "normal": true,
-        "sensitive": true,
-        "acne": false,
-        "antiAging": true,
-        "dry": true,
         "name": "Ce Ferulic",
         "brand": "SKINCEUTICALS",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": true,
+            "oily": true,
+            "combination": false,
+            "normal": true,
+            "antiAging": true,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": true,
-        "combination": true,
-        "normal": false,
-        "sensitive": false,
-        "acne": true,
-        "antiAging": true,
-        "dry": false,
         "name": "Blemish And Age Defense",
         "brand": "SKINCEUTICALS",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": true,
+            "dry": false,
+            "sensitive": false,
+            "oily": true,
+            "combination": true,
+            "normal": false,
+            "antiAging": true,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": true,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": true,
-        "dry": true,
         "name": "A.G.E. Eye",
         "brand": "SKINCEUTICALS",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": true,
+            "sensitive": false,
+            "oily": false,
+            "combination": true,
+            "normal": true,
+            "antiAging": true,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-        "oily": false,
-        "combination": false,
-        "normal": true,
-        "sensitive": false,
-        "acne": false,
-        "antiAging": false,
-        "dry": false,
         "name": "Biocellulose Sheet Mask (Post Procedure)",
         "brand": "SKINCEUTICALS",
-        "bar": "back"
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": true,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
         "name": "Sc Glycolic Peel",
-        "brand": "PEEL"
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Arctic Berry Pro Adv Peel Activator",
-       "brand": "PEEL"
+        "name": "Arctic Berry Pro Adv Peel Activator",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "5 Berry Peel (7%Tca)",
-       "brand": "PEEL"
+        "name": "5 Berry Peel (7%Tca)",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Jessner Peel (14% Sal, 14% Lactic, And 14% Resorcinol)",
-       "brand": "PEEL"
+        "name": "Jessner Peel (14% Sal, 14% Lactic, And 14% Resorcinol)",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Lactic 30%",
-       "brand": "PEEL"
+        "name": "Lactic 30%",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Lactic 50%",
-       "brand": "PEEL"
+        "name": "Lactic 50%",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Oxygen Skin Regenerative Peel",
-       "brand": "PEEL"
+        "name": "Oxygen Skin Regenerative Peel",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Pumpkin Peel (Intense Anti Ox)",
-       "brand": "PEEL"
+        "name": "Pumpkin Peel (Intense Anti Ox)",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Sal X 20% Salicylic Acid Peel",
-       "brand": "PEEL",
-       "bar": "back"
+        "name": "Sal X 20% Salicylic Acid Peel",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Sal X 30% Exfoliator Solution",
-       "brand": "PEEL",
-       "bar": "back"
+        "name": "Sal X 30% Exfoliator Solution",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Tca Peel 15%",
-       "brand": "PEEL",
-       "bar": "back"
+        "name": "Tca Peel 15%",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Illuminize Peel",
-       "brand": "PEEL"
+        "name": "Illuminize Peel",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Rejuvanize Peel",
-       "brand": "PEEL",
-       "bar": "back"
+        "name": "Rejuvanize Peel",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     },
     {
-       "oily": false,
-       "combination": false,
-       "normal": false,
-       "sensitive": false,
-       "acne": false,
-       "antiAging": false,
-       "dry": false,
-       "name": "Vitalize Peel",
-       "brand": "PEEL",
-       "bar": "back"
+        "name": "Vitalize Peel",
+        "brand": "PEEL",
+        "bar": "back",
+        "tags": {
+            "acne": false,
+            "dry": false,
+            "sensitive": false,
+            "oily": false,
+            "combination": false,
+            "normal": false,
+            "antiAging": false,
+            "comedogenic": false,
+            "brightening": false,
+            "uv": false
+        }
     }
 ]
