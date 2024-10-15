@@ -11,10 +11,21 @@ function getTags() {
         oily: document.getElementById("oily").checked,
         combination: document.getElementById("combination").checked,
         normal: document.getElementById("normal").checked,
+        all: document.getElementById("all").checked,
         antiAging: document.getElementById("anti-aging").checked,
-        comedogenic: document.getElementById("comedogenic").checked,
+        hyperpigmentation: document.getElementById("hyperpigmentation").checked,
+        rosacea: document.getElementById("rosacea").checked,
+        erythema: document.getElementById("erythema").checked,
+        darkCircles: document.getElementById("dark-circles").checked,
         brightening: document.getElementById("brightening").checked,
-        uv: document.getElementById("uv").checked,
+        spf: document.getElementById("spf").checked,
+        cleansers: document.getElementById("cleansers").checked,
+        serums: document.getElementById("serums").checked,
+        masks: document.getElementById("masks").checked,
+        moisturizers: document.getElementById("moisturizers").checked,
+        exfoliants: document.getElementById("exfoliants").checked,
+        mists: document.getElementById("mists").checked,
+        eyeCreams: document.getElementById("eye-creams").checked
     };
 }
 
@@ -59,7 +70,7 @@ function getProducts(){
             // <img src="${product.image}" alt="${product.name}" />
             productDiv.innerHTML = `
             <h2>${product.name}</h2>
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTypfQZT9O91a9waS85UTRyg9UaJnGfonih7wrc23PwPDDo8d63jSYMWl98WI3QrK8iDz3cCSJJWFOWJ62q_pIuEoBuoaKdwYXve3eQQTrzAc6sTl2p8pT9" alt="${product.name}" />
+            <img src="${product.image}" alt="${product.name}" />
             <p>Brand: ${product.brand}</p>
             ${tagsHTML}
             <p>Bar: ${product.bar}</p>

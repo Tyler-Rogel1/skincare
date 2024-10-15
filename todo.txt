@@ -4,3 +4,5 @@ make it so you can see way more options on one screen, especially for ipad size.
 general visual improvements
 sidebar the filters?
 search
+get the rest of the data in
+figure out what the "all" tag means
