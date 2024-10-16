@@ -1,3 +1,10 @@
+let compactViewToggle = document.querySelector("#compact-view");
+compactViewToggle.onclick = function() { 
+    getProducts();
+}
+
+
+
 let applyFiltersBtn = document.querySelector("#filter-btn");
 applyFiltersBtn.onclick = function() { 
     getProducts();
@@ -29,35 +36,25 @@ function getTags() {
     };
 }
 
-
-function getProducts(){
-    const productDivs = document.querySelectorAll('.product');
-
-    // Loop through all products and remove each element
-    productDivs.forEach(productDiv => {
-        productDiv.remove();
-    });
+function displayProducts(data){
+    //find the container we will put the products in
+    const container = document.getElementById('product-container');
     //figure out what filters we have
     selectedTags = getTags();
     selectedBrand = document.getElementById('brand-select').value;
-    //fecth the data
-    fetch('products.json')
-    .then(response => response.json())
-    .then(data => {
-        //find the container we will put the products in
-        const container = document.getElementById('product-container');
-        // Loop through each product and create HTML to display it
-        // console.log("selectedTags",selectedTags);
-        data.forEach(product => {
-            //only show if matches filter
-            for (const tag in selectedTags) {
-                if (!product.tags[String(tag)] && selectedTags[tag]) return;
-            }
-            if(selectedBrand && selectedBrand !== 'ALL' && selectedBrand !== product.brand) return;
+    // Loop through each product and create HTML to display it
+    // console.log("selectedTags",selectedTags);
+    data.forEach(product => {
+        //only show if matches filter
+        for (const tag in selectedTags) {
+            if (!product.tags[String(tag)] && selectedTags[tag]) return;
+        }
+        if(selectedBrand && selectedBrand !== 'ALL' && selectedBrand !== product.brand) return;
 
-            const productDiv = document.createElement('div');
-            productDiv.className = 'product';
-            
+        const productDiv = document.createElement('div');
+        productDiv.className = 'product';
+        // If we are not in compact view then show all the details on large cards
+        if (!compactViewToggle.checked) {
             let tags = [];
             // Check each condition and add corresponding tag if true
             for (let key in product['tags']) {
@@ -68,16 +65,83 @@ function getProducts(){
 
             // Set the inner HTML with the product details and conditional tags
             // <img src="${product.image}" alt="${product.name}" />
+            productDiv.classList.add('full');
+            productDiv.classList.remove('compact');
             productDiv.innerHTML = `
             <h2>${product.name}</h2>
-            <img src="${product.image}" alt="${product.name}" />
+            <img src="${product.image}" alt="${product.name}" class="full-image"/>
             <p>Brand: ${product.brand}</p>
             ${tagsHTML}
             <p>Bar: ${product.bar}</p>
-            `;
-            
-            container.appendChild(productDiv);
-        });
+            `;  
+        // else we are in compact view so show just the image, name and brand in small cards
+        } else {
+            productDiv.classList.add('compact');
+            productDiv.classList.remove('full');
+            productDiv.innerHTML = `
+            <img src="${product.image}" alt="${product.name}" class="compact-image"/>
+            <div class="compact-details">
+            <h2>${product.name}</h2>
+            <p>${product.brand}</p>
+            </div>
+            `;  
+        }
+        
+        productDiv.addEventListener('click', () => {
+            focusProduct(product);
+        })
+        container.appendChild(productDiv);
+    });
+}
+function focusProduct(product) {
+    // Create a modal container
+    overlay.style.display = 'flex';
+    const modal = document.querySelector('#focus-product');
+    let tags = [];
+    // Check each condition and add corresponding tag if true
+    for (let key in product['tags']) {
+        if (product['tags'][key]) tags.push(key);
+    }
+    // Build the tags string
+    let tagsHTML = tags.length > 0 ? `<p><strong>Tags:</strong> ${tags.join(', ')}</p>` : '';
+    // Add content to the modal (expanded product view)
+    modal.innerHTML = `
+            <span class="close-button">&times;</span>
+            <h2>${product.name}</h2>
+            <img src="${product.image}" alt="${product.name}" />
+            <p><strong>Brand:</strong> ${product.brand}</p>
+            <p><strong>Bar:</strong> ${product.bar}</p>
+            ${tagsHTML}
+    `;
+
+    // Add event listener to close the modal when clicking the close button
+    const closeButton = modal.querySelector('.close-button');
+    closeButton.addEventListener('click', () => {
+        overlay.style.display = 'none';
+    });
+
+    // Close the modal when clicking outside of the content
+    overlay.addEventListener('click', (event) => {
+        if (event.target === overlay) {
+            overlay.style.display = 'none';
+        }
+    });
+}
+function clearProducts(){
+    const productDivs = document.querySelectorAll('.product');
+
+    // Loop through all products and remove each element
+    productDivs.forEach(productDiv => {
+        productDiv.remove();
+    });
+}
+function getProducts(){
+    clearProducts();
+    //fetch the data
+    fetch('products.json')
+    .then(response => response.json())
+    .then(data => {
+        displayProducts(data);
     })
     .catch(error => console.error('Error fetching the JSON data:', error));
     

@@ -13,6 +13,11 @@
 <body>
     
     <h1>Skincare organizer</h1>
+    <label class="switch">
+        <input type="checkbox" id="compact-view">
+        <span></span>
+        compact view
+    </label>
     <div id="filters">
         <label for="brand-select">Select Brand:</label>
             <select id="brand-select">
@@ -134,6 +139,9 @@
     </div>
     
     <div id="product-container"></div>
+    <div id="overlay">
+        <div id="focus-product"></div>
+    </div>
 </body>
     <script src="script.js"></script>
 </html>
