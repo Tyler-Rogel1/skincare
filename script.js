@@ -32,7 +32,9 @@ function getTags() {
         moisturizers: document.getElementById("moisturizers").checked,
         exfoliants: document.getElementById("exfoliants").checked,
         mists: document.getElementById("mists").checked,
-        eyeCreams: document.getElementById("eye-creams").checked
+        eyeCreams: document.getElementById("eye-creams").checked,
+        diamondGlowSerum: document.getElementById("diamond-glow-serum").checked
+
     };
 }
 

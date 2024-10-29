@@ -1,10 +1,9 @@
 
-make it so you can see way more options on one screen, especially for mobile. Maybe like how spotify has the grid vs compact layout options
 sidebar the filters?
 general visual improvements
-tap on item to view all tags
+
 search by name directly
 format brand names better
-get the rest of the data in
+
 add/edit items directly
 delete items directly
