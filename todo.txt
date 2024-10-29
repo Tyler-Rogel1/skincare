@@ -3,7 +3,7 @@ sidebar the filters?
 general visual improvements
 
 search by name directly
-format brand names better
+format brand names better CAN JUST MAKE THEM TYPED NORMALLY, no need for "THIS_FORMAT"
 
 add/edit items directly
 delete items directly

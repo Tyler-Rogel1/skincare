@@ -1684,7 +1684,7 @@
     },
     {
         "name": "Aha/Bha Exfoliating Cleanser",
-        "brand": "SKIN_MEDICA",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://www.skinmedica.com/dw/image/v2/BBTL_PRD/on/demandware.static/-/Sites-alg-us-master-catalog/default/dw7c7d3947/skm-high-res/94945-AHABHA-withAward.jpg?sw=1384&q=40",
         "tags": {
@@ -1713,7 +1713,7 @@
     },
     {
         "name": "Ha 5",
-        "brand": "SKIN_MEDICA",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://www.skinmedica.com/dw/image/v2/BBTL_PRD/on/demandware.static/-/Sites-alg-us-master-catalog/default/dwbd611926/skm-high-res/HA5_Rejuvenating-Hydrator_2oz.jpg?sw=1384&q=40",
         "tags": {
@@ -1742,7 +1742,7 @@
     },
     {
         "name": "Rejuvenative Moisturizer",
-        "brand": "SKIN_MEDICA",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://www.skinmedica.com/dw/image/v2/BBTL_PRD/on/demandware.static/-/Sites-alg-us-master-catalog/default/dw7d90f3db/skm-high-res/Rejuvenative_Moistur_2oz.jpg?sw=1384&q=40",
         "tags": {
@@ -1771,7 +1771,7 @@
     },
     {
         "name": "TNS Ceramide Treatment Cream",
-        "brand": "SKIN_MEDICA",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://www.skinmedica.com/dw/image/v2/BBTL_PRD/on/demandware.static/-/Sites-alg-us-master-catalog/default/dwa2547908/skm-high-res/TNS_Ceramide_Cream_2oz.jpg?sw=1384&q=40",
         "tags": {
@@ -1800,7 +1800,7 @@
     },
     {
         "name": "Tns Hydrating Mask",
-        "brand": "SKIN_MEDICA",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://skincaremarket.net/cdn/shop/products/SkinMedicaTNS_Hydrating_Masque_Professional_Size_8oz_264x700.jpg?v=1631914459",
         "tags": {
@@ -2148,7 +2148,7 @@
     },
     {
         "name": "TNS Advanced+ pro-infusion serum",
-        "brand": "SkinMedica",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://img.medestheticsmag.com/files/base/allured/all/image/2021/01/tnsproinfusionskinmedica.5ff5cc1a3977c.png?auto=format%2Ccompress&dpr=2&q=70&rect=55%2C0%2C889%2C500&w=700",
         "tags": {
@@ -2178,7 +2178,7 @@
     },
     {
         "name": "HA5 Hydra Collagen Pro-Infusion Serum",
-        "brand": "SkinMedica",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://www.advancedskinmd.com/wp-content/uploads/2022/03/diamondglow-ha5-hyaluronic-acid-pro-infusion-serum-768x772.jpg",
         "tags": {
@@ -2208,7 +2208,7 @@
     },
         {
         "name": "Even and Correct Advanced Brightening Pro-Infusion Serum",
-        "brand": "SkinMedica",
+        "brand": "Skin Medica",
         "bar": "back",
         "image": "https://images.squarespace-cdn.com/content/v1/55445436e4b03724d70d0a2c/bb59021d-a3a0-4d00-b267-7b132a63f7a6/PNG+image.jpeg?format=500w",
         "tags": {
@@ -2238,9 +2238,9 @@
         },
         {
             "name": "Pore-Purifying Pro-Infusion Serum",
-            "brand": "SkinMedica",
+            "brand": "Skin Medica",
             "bar": "back",
-            "image": "https://images.squarespace-cdn.com/content/v1/55445436e4b03724d70d0a2c/bb59021d-a3a0-4d00-b267-7b132a63f7a6/PNG+image.jpeg?format=500w",
+            "image": "https://www.winterparklaser.com/wp-content/uploads/2023/05/DiamondGlow-Pore-Clarifying-Serum.jpg",
             "tags": {
                 "acne": true,
                 "dry": false,
@@ -2269,7 +2269,7 @@
         },
         {
             "name": "Vitamin C Pro-Infusion Serum",
-            "brand": "SkinMedica",
+            "brand": "Skin Medica",
             "bar": "back",
             "image": "https://images.squarespace-cdn.com/content/v1/55445436e4b03724d70d0a2c/f613d124-5cb7-4a51-9019-9a779b52e85e/Asset+1.jpeg?format=750w",
                 "tags": {
